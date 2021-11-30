@@ -1,0 +1,379 @@
+  .wrap {
+    max-width: 1980px;
+    margin: 0 auto;
+    font-family: "PingFang TC";
+    font-family: "Noto Sans TC", sans-serif;
+  }
+  
+  .banner {
+    background-image: url(../image/bg01.jpg);
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 650px;
+    text-align: center;
+    padding: 14%;
+  }
+  
+  .banner-explore {
+    background-image: url(../image/bg02.jpg);
+    background-position: center center;
+    background-size: cover;
+    height: 200px;
+    text-align: center;
+  }
+  
+  .banner h1 {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    letter-spacing: 0.15em;
+    color: #ffffff;
+    margin-left: 45%;
+  }
+  
+  .nav {
+    display: flex;
+    border-bottom: 1px solid #dfdfdf;
+    height: 100px;
+    margin-top: -45px;
+  }
+  
+  .siteNav {
+    margin-top: 0px;
+  }
+  
+  .nav li {
+    width: 19%;
+    text-align: center;
+    height: 100px;
+    border: 1px solid #e5e5e5;
+    background-color: rgb(255, 255, 255);
+    display: block;
+  }
+  
+  .nav li .inPage {
+    color: #e1ab43;
+  }
+  
+  .liHover:hover {
+    background-color: #e1ab43;
+  }
+  
+  .liHover:hover a {
+    color: #ffffff;
+  }
+  
+  .nav h2 {
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 14px;
+    letter-spacing: 0.15em;
+    text-align: center;
+  }
+  
+  .nav .logo {
+    width: 24%;
+    border-top-left-radius: 50px;
+    line-height: 30px;
+  }
+  
+  .siteNav .logo {
+    border-top-left-radius: 0px;
+  }
+  
+  .nav-right {
+    border-top-right-radius: 50px;
+  }
+  
+  .siteNav .nav-right {
+    border-top-right-radius: 0px;
+  }
+  
+  .nav li a {
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 100px;
+    color: #7e7e7e;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .containTitle {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .containTitle p {
+    width: 65%;
+    text-align: center;
+    margin: 20px auto 50px auto;
+    font-size: 16px;
+    line-height: 22px;
+    text-align: center;
+    color: #5c5c5c;
+  }
+  
+  .latestNews,
+  .Explore,
+  .Site {
+    display: flex;
+    align-items: center;
+    border-top: 1px solid #b6b6b6;
+    text-align: center;
+    height: 380px;
+  }
+  
+  .Site {
+    border-bottom: 1px solid #b6b6b6;
+  }
+  
+  .latestNews h2,
+  .Explore h2,
+  .Site h2 {
+    font-weight: 500;
+    font-size: 24px;
+    color: #e1ab43;
+    width: 19%;
+  }
+  
+  .latestNews a,
+  .Explore-BTN a {
+    border: 2px solid #a3c896;
+    box-sizing: border-box;
+    border-radius: 50px;
+    padding: 10px;
+    width: 150px;
+    display: block;
+    margin: 0 auto;
+  }
+  
+  .Explore-BTN a {
+    margin: 20px auto;
+  }
+  
+  .Explore p {
+    font-size: 20px;
+    line-height: 23px;
+    margin-bottom: 5px;
+    color: #5c5c5c;
+  }
+  
+  .latestNews a,
+  .Explore-BTN a,
+  .map a,
+  .service a {
+    text-decoration: none;
+    color: #000000;
+  }
+  .latestNews-BTN {
+    margin: 0 auto;
+    width: 27%;
+    text-align: center;
+  }
+  
+  .new1 {
+    width: 27%;
+    height: 380px;
+    background-image: url(../image/index_news01.jpg);
+    border-collapse: collapse;
+    border-left: 1px solid #b6b6b6;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  .new2 {
+    width: 27%;
+    height: 380px;
+    background-image: url(../image/index_news02.jpg);
+    border-collapse: collapse;
+    border-left: 1px solid #b6b6b6;
+    border-right: 1px solid #b6b6b6;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  .Explore-BTN {
+    margin: 0 auto;
+    width: 54%;
+    text-align: center;
+    border-left: 1px solid #b6b6b6;
+    display: block;
+    height: 100%;
+    padding: 180px 0;
+  }
+  
+  .route {
+    width: 27%;
+    height: 380px;
+    background-image: url(../image/index_route.jpg);
+    border-collapse: collapse;
+    border-left: 1px solid #b6b6b6;
+    border-right: 1px solid #b6b6b6;
+  }
+  
+  .busimg {
+    width: 54%;
+    height: 380px;
+    background-image: url(../image/index_busStation.jpg);
+    border-collapse: collapse;
+    border-left: 1px solid #b6b6b6;
+    border-right: 1px solid #b6b6b6;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-bottom: 1px solid #b6b6b6;
+  }
+  
+  .fa-arrow-right {
+    margin-left: 5px;
+  }
+  
+  .Site-BTN {
+    width: 27%;
+  }
+  
+  .map {
+    padding-top: 52px;
+    padding-bottom: 50px;
+    border-bottom: 1px solid #b6b6b6;
+    font-weight: 500;
+    font-size: 24px;
+    color: #5c5c5c;
+  }
+  
+  .map a,
+  .service a {
+    border: 2px solid #a3c896;
+    box-sizing: border-box;
+    border-radius: 50px;
+    padding: 10px;
+    width: 150px;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+  }
+  
+  .service {
+    padding-top: 51px;
+    padding-bottom: 50px;
+    font-weight: 500;
+    font-size: 24px;
+    color: #5c5c5c;
+  }
+  .map p,
+  .service p {
+    margin-bottom: 40px;
+  }
+  
+  .problem {
+    text-align: center;
+    padding: 50px;
+  }
+  
+  .problem h2 {
+    font-weight: 500;
+    font-size: 24px;
+    color: #e1ab43;
+    margin-bottom: 50px;
+  }
+  
+  .problem p {
+    font-size: 20px;
+    line-height: 28px;
+    color: #5c5c5c;
+    margin-bottom: 30px;
+  }
+  
+  .footer {
+    background-color: #e1ab43;
+    height: 80px;
+    font-family: "Crimson Text", serif;
+    font-size: 16px;
+    text-align: center;
+    color: #ffffff;
+    padding: 32px;
+  }
+  
+  .greenarrow {
+    color: #a3c896;
+  }
+  
+  .btnHover:hover {
+    background-color: #a3c896;
+    color: #ffffff;
+    border: 2px solid #a3c896;
+  }
+  
+  .btnHover:hover i {
+    color: #ffffff;
+  }
+  
+  .exploreBTN {
+    width: 120px;
+    height: 45px;
+    background: #a3c896;
+    color: #ffffff;
+    border-radius: 8px;
+    border: 0 solid #5c5c5c;
+    margin-left: 80px;
+    margin-top: 95px;
+    cursor: pointer;
+  }
+  
+  .exploreBTN:hover {
+    background: #72a55f;
+  }
+  
+  .siteBTN {
+    width: 120px;
+    height: 45px;
+    background: #a3c896;
+    color: #ffffff;
+    border-radius: 8px;
+    border: 0 solid #5c5c5c;
+    margin-right: 20px;
+    cursor: pointer;
+  }
+  .siteBTN:hover {
+    background: #72a55f;
+  }
+  
+  .new1 p,
+  .new2 p {
+    margin-top: 20%;
+    margin-bottom: 10%;
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    color: #ffffff;
+  }
+  
+  .new1 h5,
+  .new2 h5 {
+    margin-top: 10%;
+    margin-bottom: 10%;
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 26px;
+    color: #ffffff;
+  }
+  
+  .new1 a,
+  .new2 a {
+    font-family: "EB Garamond", serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 23px;
+    text-align: center;
+    text-decoration-line: underline;
+    border: 0px solid #a3c896;
+    color: #ffffff;
+  }
